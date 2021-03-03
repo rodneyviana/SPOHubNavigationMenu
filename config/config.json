@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "managed-metadada-menu-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/managedMetadadaMenu/ManagedMetadadaMenuApplicationCustomizer.js",
+          "manifest": "./src/extensions/managedMetadadaMenu/ManagedMetadadaMenuApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ManagedMetadadaMenuApplicationCustomizerStrings": "lib/extensions/managedMetadadaMenu/loc/{locale}.js"
+  }
+}

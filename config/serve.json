@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ceresmining.sharepoint.com/sites/Communication/",
+      "customActions": {
+        "428c16e3-51b8-4cf4-bd73-0c20f8c3e4a8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "TopMenuTermSet": "Menu",
+            "BottomMenuTermSet": "Menu"
+          }
+        }
+      }
+    },
+    "managedMetadadaMenu": {
+      "pageUrl": "https://ceresmining.sharepoint.com/sites/Communication/",
+      "customActions": {
+        "428c16e3-51b8-4cf4-bd73-0c20f8c3e4a8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "TopMenuTermSet": "Menu",
+            "BottomMenuTermSet": "Menu"
+          }
+        }
+      }
+    }
+  }
+}
