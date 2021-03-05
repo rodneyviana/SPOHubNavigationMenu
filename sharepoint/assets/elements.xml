@@ -4,6 +4,6 @@
         Title="ManagedMetadadaMenu"
         Location="ClientSideExtension.ApplicationCustomizer"
         ClientSideComponentId="428c16e3-51b8-4cf4-bd73-0c20f8c3e4a8"
-        ClientSideComponentProperties="{""TopMenuTermSet"":""TenantGlobalNavBar"",""BottomMenuTermSet"":""TenantGlobalFooterBar""}">
+        ClientSideComponentProperties="{""TopMenuTermSet"":""Menu"",""BottomMenuTermSet"":""Menu""}">
     </CustomAction>
 </Elements>
